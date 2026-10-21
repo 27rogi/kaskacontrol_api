@@ -1,0 +1,38 @@
+# всякий мусор от питона
+__pycache__/
+*.py[oc]
+.Python
+build/
+dist/
+wheels/
+*.egg-info
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.coverage
+htmlcov/
+coverage.xml
+pip-wheel-metadata/
+
+*.log
+logs/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+tests/*
+datasets/*
+uploads/*
+# только готовые модели
+models/**
+!models/**/
+models/**/train
+!models/**/*.pt
+
+# переменные
+.venv
+.env
+sqlite.db
+*.db-wal
+*.db-shm
